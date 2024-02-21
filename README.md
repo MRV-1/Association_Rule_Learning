@@ -43,16 +43,16 @@ The data set is reduced to a specific country
 
 # 3. Issuance of Association Rules
 
---> antecedents: frequency of occurrence of first product
---> consequences: frequency of occurrence of second product
---> antecedent support: probability of observing the first product,
---> consequent support: probability of observing the second product,
---> support: is the probability of two given products appearing together
---> confidence: probability of purchasing y since product x is purchased
---> lift: When product x is purchased, the probability of purchasing product y increases by 17 times
---> leverage: leverage effect, it is a value similar to lift, but the leverage value tends to prioritize values with high support, so it has a slight bias.
---> lift value, although less frequent, can capture some relationships, so it is an unbiased and more valuable metric for us.
---> conviction: is the expected frequency of product x without product y, or expected frequency of product y without product x
+--> antecedents: frequency of occurrence of first product <br/>
+--> consequences: frequency of occurrence of second product  <br/>
+--> antecedent support: probability of observing the first product  <br/>
+--> consequent support: probability of observing the second product  <br/>
+--> support: is the probability of two given products appearing together  <br/>
+--> confidence: probability of purchasing y since product x is purchased  <br/>
+--> lift: When product x is purchased, the probability of purchasing product y increases by 17 times  <br/>
+--> leverage: leverage effect, it is a value similar to lift, but the leverage value tends to prioritize values with high support, so it has a slight bias.  <br/>
+--> lift value, although less frequent, can capture some relationships, so it is an unbiased and more valuable metric for us  <br/>
+--> conviction: is the expected frequency of product x without product y, or expected frequency of product y without product x  <br/>
 
 # 4. Preparing the Script of the Work
 
